@@ -151,7 +151,7 @@ Input Description
           },
           // Enable the source map output of every single contract.
           "*": {
-            "*": [ "evm.sourceMap" ]
+            "*": [ "evm.bytecode.sourceMap" ]
           },
           // Enable the legacy AST output of every single file.
           "*": {
